@@ -9,7 +9,7 @@ quaerat consectetur dolor velit. Sed adipisci 2017-05-01 00:25:34.398268 eius do
 velit neque. 2010-11-14 05:14:47.704542 Sed etincidunt numquam 1994-01-14 03:42:59.505113 neque non sit velit. 
 Quiquia numquam adipisci adipisci sed est etincidunt. """
 
-time_pattern = r"((\d{2}):(\d{2}):(\d{2})(.\d+)?)"
+time_pattern = r"((\d{2}):(\d{2}):(\d{2})(\.\d+)?)"
 for time_match in re.finditer(time_pattern, txt):
     print()
     print('Time:', time_match)

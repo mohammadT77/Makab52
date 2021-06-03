@@ -1,0 +1,26 @@
+[
+  {
+    "first_name": "akbar",
+    "last_name": "babaii",
+    "mark": [12,12,14,15],
+    "courses": [
+      {
+        "name": "python",
+        "length": "10hour"
+      }
+    ],
+    "age":24
+  },
+  {
+    "first_name": "asqar",
+    "last_name": "Rezaii",
+    "mark": [19,17,16],
+    "courses": [
+      {
+        "name": "python",
+        "length": "10hour"
+      }
+    ],
+    "age":24
+  }
+]

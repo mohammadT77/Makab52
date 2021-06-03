@@ -1,0 +1,18 @@
+/* cards.css */
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 3px 5px 2px gray ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+#primary_card {
+    background-color: #0d0d5c;
+}

@@ -1,0 +1,91 @@
+/*pre.test::after {*/
+/*    content: "REZA";*/
+/*}*/
+
+/*button.my_btn {*/
+/*    box-shadow: 0 3px 5px 0 gray;*/
+/*    color: white;*/
+/*    background: #3434d4;*/
+/*    border: 1px solid gray;*/
+/*    font-size: 1rem;*/
+/*    padding: .5rem 1.5rem;*/
+/*    border-radius: 20px;*/
+/*    outline: none;*/
+/*}*/
+
+/*button.my_btn:hover {*/
+/*    box-shadow: none;*/
+/*    background: #0d0d5c;*/
+/*    color: rgba(255, 255, 255, 0.66);*/
+/*}*/
+
+
+/*input.my_input {*/
+/*    border: 1px solid cadetblue;*/
+/*    padding: .4rem .4rem;*/
+/*    border-radius: 5px;*/
+/*    font-size: 1rem;*/
+/*    outline: none;*/
+/*    color: #3e3e3e;*/
+/*}*/
+
+/*input.my_input:focus {*/
+/*    box-shadow: 0 0 6px 2px cadetblue;*/
+/*    color: #0e0e0e;*/
+/*}*/
+
+
+
+/*input[type='submit'] {*/
+/*    box-shadow: 0 3px 5px 0 gray;*/
+/*    color: white;*/
+/*    background: #3434d4;*/
+/*    border: 1px solid gray;*/
+/*    font-size: 1rem;*/
+/*    padding: .5rem 1.5rem;*/
+/*    border-radius: 20px;*/
+/*    outline: none;*/
+/*}*/
+
+/*input[type='text'] {*/
+/*    border: 1px solid cadetblue;*/
+/*    padding: .4rem .4rem;*/
+/*    border-radius: 5px;*/
+/*    font-size: 1rem;*/
+/*    outline: none;*/
+/*    color: #3e3e3e;*/
+/*    flex: ;*/
+/*    -ms-flex: ;*/
+/*    -webkit-flex: ;*/
+/*}*/
+
+#container {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.48);
+    overflow: auto;
+    border-radius: 1.5rem;
+    text-overflow: clip;
+}
+
+#container > img {
+    float: left;
+    width: 25%;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 500px){
+    #container > img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+/*@media screen and (max-width: 500px){*/
+/*    #container > img {*/
+/*        float: top;*/
+/*        margin: 0 0 10px;*/
+/*        width: 100%;*/
+/*    }*/
+/*    #container > h2 {*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
